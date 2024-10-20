@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .friend-requests {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    padding: 40px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .header h2 {
+    font-size: 18px;
+    color: #333;
+  }
+
+  .header a {
+    color: #ff784f;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .request {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .request img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-right: 15px;
+  }
+
+  .request-info {
+    flex: 1;
+  }
+
+  .request-info h3 {
+    font-size: 16px;
+    color: #333;
+  }
+
+  .request-info p {
+    font-size: 12px;
+    color: #888;
+  }
+
+  .confirm-btn {
+    background-color: #ff784f;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
